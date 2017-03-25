@@ -1,0 +1,144 @@
+{
+  "basics": {
+    "name": "Kelly Nelson",
+    "label": "Front End Developer",
+    "picture": "./ProfilePhoto.jpg",
+    "email": "nelson20@gmail.com",
+    "phone": "509-727-3168",
+    "website": "http://resume.pnwnelson.com",
+    "summary": "My cumulation of life decisions has me as a web developer with one eye always on design. I currently am very interested in React based code. I am also attempting world dominance by doing freelance architectural photography.",
+    "location": {
+      "city": "Tri-Cities",
+      "countryCode": "US",
+      "region": "Washington"
+    },
+    "profiles": [{
+      "network": "Twitter",
+      "username": "pnwnelson",
+      "url": "http://twitter.com/pnwnelson"
+    },{
+      "network": "GitHub",
+      "username": "pnwnelson",
+      "url": "http://github.com/pnwnelson"
+    },{
+      "network": "Instagram",
+      "username": "pnwnelson",
+      "url": "http://www.instagram.com/pnwnelson/"
+    }
+  ]
+  },
+  "work": [{
+    "id": 1,
+    "company": "Ström Coffee",
+    "position": "Owner/Operator",
+    "location":"Richland, Washington",
+    "startDate": "October 2013",
+    "endDate": "November 2015",
+    "summary": "Acquire, design and build out a 1964 Airstream into a mobile walk-in coffee shop, manage the business operations of a retail coffee shop including purchasing, accounting, inventory planning, cash handling, enthusiastic hospitality, customer education and marketing."
+  },{
+    "id": 2,
+    "company": "Umatilla Electric",
+    "position": "IT Analyst II",
+    "location":"Hermiston, Oregon",
+    "startDate": "February 2005",
+    "endDate": "August 2013",
+    "summary": "Administration/support of various systems including Windows based desktops, servers (including virtual), Active Directory, iOS/Android devices, VOIP system (Avaya), Building Security systems (Kantech), Asset Inventory system (Footprints), LAN hardware (Juniper), Video Surveillance (Milestone/IQInvision), various industry related applications (Clevest, TWACS, Itron), server room redesign including redundant power distribution, rack space design, cable/patch panel management and environmental monitoring."
+  },{
+    "id": 3,
+    "company": "Excell Data/Weyerhaeuser",
+    "position": "System Administor",
+    "location":"Federal Way, Washington",
+    "startDate": "January 2004",
+    "endDate": "June 2004",
+    "summary": "Dedicated on-site contractor for EDS at Weyerhaeuser doing Windows 2000/NT domain user account creations, deletions and administration using Active Directory, Exchange mailbox creations, deletions and administration using Active Directory and Exchange Administrator, group security permissions, share creations, break/fix resolutions, documentation."
+  },{
+    "id": 4,
+    "company": "AT&T Fixed Wireless",
+    "position": "Network/System Specialist",
+    "location":"Redmond, Washington",
+    "startDate": "July 1999",
+    "endDate": "December 2001",
+    "summary": "Administration/support of enterprise Windows based desktops (2,000), servers (100+), NT accounts, printers, Exchange accounts, IIS, asset tracking, etc."
+  }],
+  "volunteer": [{
+    "organization": "United Church of God",
+    "position": "Co-Counselor",
+    "website": "http://uyc.ucg.org/",
+    "startDate": "Summer 2016",
+    "summary": "Help guide 7-9 year olds through a week of camp activities while teaching biblical concepts in ways they can understand and utilize after leaving camp."
+  },{
+    "organization": "Global Church of God",
+    "position": "Co-Counselor",
+    "startDate": "Summer 1998",
+    "summary": "Help guide older teenagers through a week of camp activities while teaching biblical concepts that will help them navigate the responsibilities that come with the transition to adulthood."
+  }],
+  "education": [{
+    "institution": "Coursera",
+    "area": "Full Stack Frameworks",
+    "studyType": "Online",
+    "startDate": "Mid 2016",
+    "endDate": "Late 2016",
+    "courses": [
+      "HTML/CSS/JS",
+      "Front-End Web-UI Frameworks",
+      "Front-End Javascript Frameworks",
+      "Server-Side Development with Node"
+    ]
+  },{
+    "institution": "Udacity",
+    "area": "Front End Development",
+    "studyType": "Online",
+    "startDate": "Late 2015",
+    "endDate": "Early 2016",
+    "courses": [
+      "Intro to HTML and CSS",
+      "Intro to Computer Science",
+      "How to Use Git and Github"
+    ]
+  },{
+    "institution": "Human Javascript",
+    "area": "React",
+    "studyType": "Online",
+    "startDate": "Early 2017",
+    "endDate": "Early 2017",
+    "courses": [
+      "Henrik Joreteg Video Series"
+    ]
+  }],
+  "portfolio": [{
+    "name": "Monopoly Calculator",
+    "website": "http://monopoly-calc.com",
+    "summary": "An online Monopoly tool to caluclate the total net worth of a Monopoly game winner",
+    "tools": "ReactJS, Bootstrap"
+  },{
+    "name": "Hymns Background",
+    "website": "http://hymnsbg.info",
+    "summary": "An app that allows for page and title searching of hymns from various Church of God hymnals.",
+    "tools": "AngularJS, Bootstrap, MongoDB, ExpressJS"
+  },{
+    "name": "Kelly Nelson Photography",
+    "website": "http://pnwnelson.com",
+    "summary": "My own website displaying my work through a FlickrAPI",
+    "tools": "ReactJS, Webpack, Bootstrap"
+  }],
+  "skills": [{
+    "name": "Front End Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "ES6",
+      "React",
+      "Angular",
+      "SASS",
+      "Gulp",
+      "Grunt",
+      "Bootstrap",
+      "Node",
+      "NPM",
+      "Git",
+      "Github"
+    ]
+  }]
+}
