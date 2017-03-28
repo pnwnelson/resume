@@ -1,24 +1,53 @@
-.App {
+@fontface {
+  font-family: 'Open Sans';
+  src: url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600');
+
+body {
+  font-weight: 100 !important;
+  font-family: 'Open Sans';
+  background-color: #f7f7f7 !important;
+  padding-top: 10px !important;
+}
+
+.section-boxes {
+  background-color: white;
+  padding: 5px 20px 20px 20px;
+  box-shadow:3px 3px 3px #d8d8d8;
+  border-radius: 2px;
+  margin: 10px;
+}
+
+hr {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+h3, h4 {
+  font-weight: 100 !important;
+}
+
+.dates {
+  color: lightgray;
+}
+
+.entity-name {
+  font-weight: 400 !important;
+}
+
+.icon-box {
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+  padding-top: 5px;
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  background-color: lightgray;
   color: white;
 }
 
-.App-intro {
-  font-size: large;
+.header-row {
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
