@@ -2,11 +2,11 @@
   "basics": {
     "name": "Kelly Nelson",
     "label": "Front End Developer",
-    "picture": "./ProfilePhoto.jpg",
+    "picture": "img/ProfilePic.gif",
     "email": "nelson20@gmail.com",
     "phone": "509-727-3168",
     "website": "http://resume.pnwnelson.com",
-    "summary": "My cumulation of life decisions has me as a web developer with one eye always on design. I currently am very interested in React based code. I am also attempting world dominance by doing freelance architectural photography.",
+    "summary": "My cumulation of life decisions has me as a web developer with one eye always on design. I currently am very interested in work that has me building in React based code. I am also attempting world dominance by doing freelance architectural photography.",
     "location": {
       "city": "Tri-Cities",
       "countryCode": "US",

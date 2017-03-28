@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import logo from './logo.svg';
-import './App.css';
 import { Grid, Row, Col, Clearfix } from 'react-bootstrap'
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.css';
 import Profile from './profile'
@@ -15,6 +15,8 @@ import Skills from './skills'
 
 const App  = props => {
 
+  const profileData = props.jsonObj.basics
+  const aboutData = profileData.summary
   const workData = props.jsonObj.work
   const educationData = props.jsonObj.education
   const skillsData = props.jsonObj.skills
@@ -24,7 +26,7 @@ const App  = props => {
       <Grid>
         <Row className='show-grid'>
           <Col lg={4}>
-            <Profile />
+            <Profile profileData={profileData}/>
           </Col>
           <Col lg={8}>
             <Work workData={workData} />
