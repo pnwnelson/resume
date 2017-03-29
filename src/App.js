@@ -5,18 +5,16 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.css';
 import Profile from './profile'
+import Portfolio from './portfolio'
 import Work from './work'
 import Education from './education'
 import Skills from './skills'
 
-//import PortfolioList from './portfoliolist'
-
-
-
 const App  = props => {
 
+  // Bring in the data sections from the json file
   const profileData = props.jsonObj.basics
-  const aboutData = profileData.summary
+  const portfolioData = props.jsonObj.portfolio
   const workData = props.jsonObj.work
   const educationData = props.jsonObj.education
   const skillsData = props.jsonObj.skills
@@ -29,6 +27,7 @@ const App  = props => {
             <Profile profileData={profileData}/>
           </Col>
           <Col lg={8}>
+            <Portfolio portfolioData={portfolioData} />
             <Work workData={workData} />
             <Education educationData={educationData} />
             <Skills skillsData={skillsData} />

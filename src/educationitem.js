@@ -20,7 +20,7 @@ const EducationItem = props => {
 
     return (
         <div className="workItem">
-          <hr />
+          <hr className='hr-right-side' />
           <h4>{props.educationItemData.area} at <span className='entity-name'>{props.educationItemData.institution}</span></h4>
           <p className="dates">{getEducationDates()}</p>
           <p>{getCourses}</p>

@@ -19,11 +19,11 @@ const Profile = props => {
 					<p>{profileObj.summary}</p>
 					<hr />
 					<div className='text-center'>
-						<a href='mailto:nelson20@gmail.com'><FontAwesome className='contact-icons' size='2x' name='envelope' /></a>
-						<a href='https://www.linkedin.com/in/pnwnelson/' target='bobdole'><FontAwesome className='contact-icons' name='linkedin' size='2x' /></a>
-						<a href='https://github.com/pnwnelson' target='bobdole'><FontAwesome className='contact-icons' name='github' size='2x' /></a>
-						<a href='https://twitter.com/pnwnelson/' target='bobdole'><FontAwesome className='contact-icons' name='twitter' size='2x' /></a>
-						<a href='https://instagram.com/pnwnelson/' target='bobdole'><FontAwesome className='contact-icons' name='instagram' size='2x' /></a>
+						<a href='mailto:nelson20@gmail.com'><FontAwesome className='email-icon contact-icons' size='2x' name='envelope' /></a>
+						<a href='https://www.linkedin.com/in/pnwnelson/' target='bobdole'><FontAwesome className='contact-icons linkedin-icon' name='linkedin' size='2x' /></a>
+						<a href='https://github.com/pnwnelson' target='bobdole'><FontAwesome className='contact-icons github-icon' name='github' size='2x' /></a>
+						<a href='https://twitter.com/pnwnelson/' target='bobdole'><FontAwesome className='contact-icons twitter-icon' name='twitter' size='2x' /></a>
+						<a href='https://instagram.com/pnwnelson/' target='bobdole'><FontAwesome className='contact-icons instagram-icon' name='instagram' size='2x' /></a>
 
 					</div>
 					<hr />

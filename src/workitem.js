@@ -20,7 +20,7 @@ const WorkItem = props => {
 
     return (
         <div>
-          <hr />
+          <hr className='hr-right-side' />
           <div className='work-title'>
             <h4>{props.workItemData.position} at <span className='entity-name'>{props.workItemData.company}</span></h4>
           </div>

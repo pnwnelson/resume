@@ -24,15 +24,15 @@ body {
 
 .section-boxes-aside {
   background-color: white;
-  padding: 10px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
   -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.24);
   border-radius: 2px;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-right: 0px;
 }
 
-hr {
+.hr-right-side {
   margin-top: 10px !important;
   margin-bottom: 10px !important;
 }
@@ -72,10 +72,66 @@ h1, h3, h4 {
 .contact-icons {
   padding: 5px;
   margin: 5px;
+}
+
+.email-icon {
   color: gray;
 }
 
-.contact-icons:hover {
-  color: darkgreen;
+.email-icon:hover {
+  color: black;
+}
+
+.twitter-icon {
+  color: gray;
+}
+
+.twitter-icon:hover {
+  color: rgb(29,161,242);
+}
+
+.github-icon {
+  color: gray;
+}
+
+.github-icon:hover {
+  color: black;
+}
+
+.linkedin-icon {
+  color: gray;
+}
+
+.linkedin-icon:hover {
+  color: rgb(0,119,181);
+}
+
+.instagram-icon {
+  color: gray;
+}
+
+.instagram-icon:hover {
+  color: black;
+}
+
+.port-tools-list {
+  display: inline-block;
+}
+
+.port-icon {
+  display: inline-block;
+  max-width: 24px;
+  max-height: 24px;
+  margin-right: 10px;
+}
+
+.port-title {
+  display: inline-block;
+}
+
+@media (max-width: 425px) {
+  .section-boxes {
+    margin-left: 0px;
+  }
 }
 

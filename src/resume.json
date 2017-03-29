@@ -73,6 +73,15 @@
     "summary": "Help guide older teenagers through a week of camp activities while teaching biblical concepts that will help them navigate the responsibilities that come with the transition to adulthood."
   }],
   "education": [{
+    "institution": "Human Javascript",
+    "area": "React",
+    "studyType": "Online",
+    "startDate": "Early 2017",
+    "endDate": "Early 2017",
+    "courses": [
+      "Henrik Joreteg Video Series"
+    ]
+  },{
     "institution": "Coursera",
     "area": "Full Stack Frameworks",
     "studyType": "Online",
@@ -95,31 +104,43 @@
       "Intro to Computer Science",
       "How to Use Git and Github"
     ]
-  },{
-    "institution": "Human Javascript",
-    "area": "React",
-    "studyType": "Online",
-    "startDate": "Early 2017",
-    "endDate": "Early 2017",
-    "courses": [
-      "Henrik Joreteg Video Series"
-    ]
   }],
   "portfolio": [{
     "name": "Monopoly Calculator",
     "website": "http://monopoly-calc.com",
-    "summary": "An online Monopoly tool to caluclate the total net worth of a Monopoly game winner",
-    "tools": "ReactJS, Bootstrap"
+    "icon": "img/monopoly-icon.png",
+    "summary": "Web app for Monopoly to caluclate the total net worth of a Monopoly game winner. Built with Create-React-App and deployed through Surge.sh",
+    "tools": [
+      "ReactJS", 
+      "Bootstrap",
+      "HTML",
+      "CSS"
+    ]
   },{
     "name": "Hymns Background",
     "website": "http://hymnsbg.info",
-    "summary": "An app that allows for page and title searching of hymns from various Church of God hymnals.",
-    "tools": "AngularJS, Bootstrap, MongoDB, ExpressJS"
+    "icon": "img/hymnsbg-icon.png",
+    "summary": "Web app that allows for page and title searching of hymns from various Church of God hymnals. Built with MeanJS scaffolding and deployed to EC2 on AWS using a Bitnami stack.",
+    "tools": [
+      "Angular", 
+      "Bootstrap",
+      "MongoDB",
+      "Express",
+      "HTML",
+      "CSS"
+    ]
   },{
     "name": "Kelly Nelson Photography",
     "website": "http://pnwnelson.com",
-    "summary": "My own website displaying my work through a FlickrAPI",
-    "tools": "ReactJS, Webpack, Bootstrap"
+    "icon": "img/pnwnelson-icon.jpg",
+    "summary": "My own website displaying my photography work through a Flickr API. Built with Create-React-App and deployed to Surge.sh",
+    "tools": [
+      "ReactJS", 
+      "Bootstrap",
+      "hjs-webpack",
+      "HTML",
+      "CSS"
+    ]
   }],
   "skills": [{
     "name": "Front End Development",
