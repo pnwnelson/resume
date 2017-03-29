@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600');
 
 body {
-  font-weight: 100 !important;
+  font-weight: 300 !important;
   font-family: 'Open Sans';
   background-color: #f7f7f7 !important;
   padding-top: 10px !important;
@@ -68,6 +68,40 @@ h1, h3, h4 {
   border-radius: 100px;
   margin: 10px;
 }
+
+/* Transitions/Animations */ 
+.profileimg-appear {
+  opacity: 0.01;
+}
+
+.profileimg-appear.profileimg-appear-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+.profile-appear {
+  opacity: 0.01;
+  transform: translate(-5%);
+}
+
+.profile-appear.profile-appear-active {
+  opacity: 1;
+  transform: translate(0%);
+  transition: transform 300ms ease-in-out;
+}
+
+.rightSide-appear {
+  opacity: 0.01;
+  transform: translate(5%);
+}
+
+.rightSide-appear.rightSide-appear-active {
+  opacity: 1;
+  transform: translate(0%);
+  transition: transform 300ms ease-in-out;  
+}
+
+/* icons */
 
 .contact-icons {
   padding: 5px;

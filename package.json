@@ -7,9 +7,11 @@
     "font-awesome": "^4.7.0",
     "moment": "^2.18.1",
     "react": "^15.4.2",
+    "react-addons-css-transition-group": "^15.4.2",
     "react-bootstrap": "^0.30.8",
     "react-dom": "^15.4.2",
-    "react-fontawesome": "^1.5.0"
+    "react-fontawesome": "^1.5.0",
+    "react-ga": "^2.1.2"
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
@@ -19,7 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "deploy": "surge -p build -d resume.pnwnelson.com",
+    "deploy": "npm run build && surge -p build -d resume.pnwnelson.com",
     "eject": "react-scripts eject"
   }
 }

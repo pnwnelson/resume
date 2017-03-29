@@ -9,8 +9,13 @@ import Portfolio from './portfolio'
 import Work from './work'
 import Education from './education'
 import Skills from './skills'
+import ReactGA from 'react-ga'
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
 const App  = props => {
+
+  ReactGA.initialize('UA-74423057-2'); // Google Analytics stuff
+  ReactGA.pageview('/');
 
   // Bring in the data sections from the json file
   const profileData = props.jsonObj.basics
@@ -24,13 +29,27 @@ const App  = props => {
       <Grid>
         <Row className='show-grid'>
           <Col lg={4}>
-            <Profile profileData={profileData}/>
+          <ReactCSSTransitionGroup
+            transitionName='profile'
+            transitionAppear={true}
+            transitionAppearTimeout={300}
+            transitionEnter={false}
+            transitionLeave={false}>
+            <Profile key={profileData} profileData={profileData}/>
+          </ReactCSSTransitionGroup>
           </Col>
           <Col lg={8}>
-            <Portfolio portfolioData={portfolioData} />
-            <Work workData={workData} />
-            <Education educationData={educationData} />
-            <Skills skillsData={skillsData} />
+          <ReactCSSTransitionGroup
+            transitionName='rightSide'
+            transitionAppear={true}
+            transitionAppearTimeout={300}
+            transitionEnter={false}
+            transitionLeave={false}>
+            <Portfolio key={portfolioData} portfolioData={portfolioData} />
+            <Work key={workData} workData={workData} />
+            <Education key={educationData} educationData={educationData} />
+            <Skills key={skillsData} skillsData={skillsData} />
+          </ReactCSSTransitionGroup>
           </Col>
         </Row>
       </Grid>

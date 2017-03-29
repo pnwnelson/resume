@@ -3,6 +3,7 @@ import WorkItem from './workitem';
 import FontAwesome from 'react-fontawesome'
 
 const Work  = props => {
+	
 	const getWorkHistory = () => {
 		const workItems = []
 		props.workData.forEach((val, index) => {

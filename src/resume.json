@@ -6,7 +6,7 @@
     "email": "nelson20@gmail.com",
     "phone": "509-727-3168",
     "website": "http://resume.pnwnelson.com",
-    "summary": "My cumulation of life decisions has me as a web developer with one eye always on design. I currently am very interested in work that has me building in React based code. I am also attempting world dominance by doing freelance architectural photography.",
+    "summary": "My cumulation of life decisions has me as a front end developer with one eye always on design. I currently am very interested in work that has me building in React. I am also attempting world dominance by doing freelance architectural photography.",
     "location": {
       "city": "Tri-Cities",
       "countryCode": "US",
@@ -120,7 +120,7 @@
     "name": "Hymns Background",
     "website": "http://hymnsbg.info",
     "icon": "img/hymnsbg-icon.png",
-    "summary": "Web app that allows for page and title searching of hymns from various Church of God hymnals. Built with MeanJS scaffolding and deployed to EC2 on AWS using a Bitnami stack.",
+    "summary": "Web app that allows for page and title searching of hymns from various Church of God hymnals. Built with MeanJS scaffolding and deployed to EC2 on AWS using a Bitnami MEAN stack.",
     "tools": [
       "Angular", 
       "Bootstrap",
@@ -140,6 +140,31 @@
       "hjs-webpack",
       "HTML",
       "CSS"
+    ]
+  },{
+    "name": "Tri-Cities Phone Repair",
+    "website": "http://tcphonerepair.com",
+    "icon": "img/placeholder-icon.png",
+    "summary": "Informational website for a local phone repair shop. Custom Wordpress theme.",
+    "tools": [
+      "Wordpress", 
+      "Bootstrap",
+      "HTML",
+      "CSS",
+      "Gulp",
+      "SASS",
+      "Vagrant"
+    ]
+  },{
+    "name": "Tri-Cities Launch",
+    "website": "http://tclaunch.surge.sh",
+    "icon": "img/placeholder-icon.png",
+    "summary": "Informational website for the 2016 version of Tri-Cities Launch.",
+    "tools": [
+      "Bootstrap",
+      "HTML",
+      "CSS",
+      "SASS"
     ]
   }],
   "skills": [{
