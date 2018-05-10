@@ -1,13 +1,13 @@
 @fontface {
-  font-family: 'Open Sans';
-  src: url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600');
+  font-family: "Open Sans";
+  src: url("https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600");
 }
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600");
 
 body {
   font-weight: 300 !important;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   background-color: #f7f7f7 !important;
   padding-top: 10px !important;
 }
@@ -15,7 +15,7 @@ body {
 .section-boxes {
   background-color: white;
   padding: 1px 20px 20px 20px;
-  -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.24);
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
   border-radius: 2px;
   margin-bottom: 15px;
   margin-top: 10px;
@@ -25,7 +25,7 @@ body {
 .section-boxes-aside {
   background-color: white;
   padding: 20px 20px 20px 20px;
-  -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.24);
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
   border-radius: 2px;
   margin-bottom: 10px;
   margin-top: 20px;
@@ -37,7 +37,9 @@ body {
   margin-bottom: 10px !important;
 }
 
-h1, h3, h4 {
+h1,
+h3,
+h4 {
   font-weight: 100 !important;
 }
 
@@ -69,7 +71,7 @@ h1, h3, h4 {
   margin: 10px;
 }
 
-/* Transitions/Animations */ 
+/* Transitions/Animations */
 .profileimg-appear {
   opacity: 0.01;
 }
@@ -98,7 +100,7 @@ h1, h3, h4 {
 .rightSide-appear.rightSide-appear-active {
   opacity: 1;
   transform: translate(0%);
-  transition: transform 300ms ease-in-out;  
+  transition: transform 300ms ease-in-out;
 }
 
 /* icons */
@@ -121,7 +123,7 @@ h1, h3, h4 {
 }
 
 .twitter-icon:hover {
-  color: rgb(29,161,242);
+  color: rgb(29, 161, 242);
 }
 
 .github-icon {
@@ -137,7 +139,7 @@ h1, h3, h4 {
 }
 
 .linkedin-icon:hover {
-  color: rgb(0,119,181);
+  color: rgb(0, 119, 181);
 }
 
 .instagram-icon {
@@ -163,9 +165,62 @@ h1, h3, h4 {
   display: inline-block;
 }
 
+.work-examples {
+  display: inline-block;
+  visibility: hidden;
+  float: right;
+}
+
+/* modal window */
+.modalStyle {
+  background-color: #fff;
+  border-radius: 5px;
+  max-width: 500px;
+  min-height: 300px;
+  margin: 0 auto;
+  padding: 30;
+}
+
+.modal-image {
+  width: 100%;
+  padding: 10px;
+}
+
+.modal-title-bar {
+  display: inline-block;
+  width: 100%;
+}
+
+.modal-title {
+  display: inline-block;
+  color: black;
+  font-weight: lighter;
+  vertical-align: middle;
+}
+
+.btn-modal-close {
+  display: inline-block;
+  float: right;
+  background-color: white;
+  border-radius: 5px;
+  color: gray;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.btn-modal-open {
+  border-radius: 5px;
+  color: #337ab7;
+  border: 1px solid #337ab7;
+}
+
+.btn-modal-open:hover {
+  color: gray;
+  border: 1px solid gray;
+}
+
 @media (max-width: 425px) {
   .section-boxes {
     margin-left: 0px;
   }
 }
-
