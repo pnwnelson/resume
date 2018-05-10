@@ -26,7 +26,6 @@ export default class WorkItem extends Component {
     };
 
     this.openModal = this.openModal.bind(this);
-    this.afterOpenModal = this.afterOpenModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
   }
 
@@ -44,11 +43,6 @@ export default class WorkItem extends Component {
 
   openModal() {
     this.setState({ modalIsOpen: true });
-  }
-
-  afterOpenModal() {
-    // references are now sync'd and can be accessed.
-    this.subtitle.style.color = "#f00";
   }
 
   closeModal() {
@@ -95,12 +89,11 @@ export default class WorkItem extends Component {
               style={customStyles}
             >
               <div className="modal-title-bar">
-                <h2 className="modal-title">
-                  {this.props.workItemData.company} Landing Pages
-                </h2>
+                <h2 className="modal-title">Landing Pages</h2>
                 <button className="btn-modal-close" onClick={this.closeModal}>
                   close
                 </button>
+                <p>Here are some examples of my work</p>
               </div>
               <div>
                 <ul className="list-unstyled">
@@ -108,8 +101,12 @@ export default class WorkItem extends Component {
                     this.props.workItemData.workExamples.map(function(item, i) {
                       return (
                         <li key={i}>
-                          <img className="modal-image" src={item.img} />
                           <hr />
+                          <img
+                            className="modal-image"
+                            src={item.img}
+                            alt={item.alt}
+                          />
                         </li>
                       );
                     })}

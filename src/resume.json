@@ -42,12 +42,30 @@
       "summary":
         "Dedicated front end web developer on contract (Modis) for the Thermal Imaging marketing group, building HTML/CSS/JS landing pages and emails for product launches, including maintaining 60+ global product websites in 30+ languages through various content management systems in a fast paced environment with tight deadlines. Working in systems such as JIRA, Eloqua, MS CMS, Clickability, Drupal and CRM.",
       "workExamples": [
-        { "img": "/img/fluke/RoverLaunch.png" },
-        { "img": "/img/fluke/TempCentric.png" },
-        { "img": "/img/fluke/RoverBuzz.jpg" },
-        { "img": "/img/fluke/ToolsNotToys.png" },
-        { "img": "/img/fluke/IRWindows.png" },
-        { "img": "/img/fluke/Centric.jpg" }
+        {
+          "img": "/img/fluke/RoverLaunch.png",
+          "alt": "New product landing page"
+        },
+        {
+          "img": "/img/fluke/TempCentric.png",
+          "alt": "Business unit landing page"
+        },
+        {
+          "img": "/img/fluke/RoverBuzz.JPG",
+          "alt": "New product buzz landing page"
+        },
+        {
+          "img": "/img/fluke/ToolsNotToys.png",
+          "alt": "Existing product awareness landing page"
+        },
+        {
+          "img": "/img/fluke/IRWindows.png",
+          "alt": "Existing product awareness landing page"
+        },
+        {
+          "img": "/img/fluke/Centric.jpg",
+          "alt": "Existing product awareness landing page"
+        }
       ]
     },
     {
