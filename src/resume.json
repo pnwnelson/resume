@@ -37,8 +37,8 @@
       "company": "Fluke Corporation",
       "position": "Front End Web Developer",
       "location": "Everett, Washington",
-      "startDate": "November 2017",
-      "endDate": "May 2018",
+      "startDate": "2017-11-01",
+      "endDate": "2018-05-01",
       "summary":
         "Dedicated front end web developer on contract (Modis) for the Thermal Imaging marketing group, building HTML/CSS/JS landing pages and emails for product launches, including maintaining 60+ global product websites in 30+ languages through various content management systems in a fast paced environment with tight deadlines. Working in systems such as JIRA, Eloqua, MS CMS, Clickability, Drupal and CRM.",
       "workExamples": [
@@ -73,8 +73,8 @@
       "company": "Ström Coffee",
       "position": "Owner/Operator",
       "location": "Richland, Washington",
-      "startDate": "October 2013",
-      "endDate": "November 2015",
+      "startDate": "2013-10-01",
+      "endDate": "2015-11-01",
       "summary":
         "Acquire, design and build out a 1964 Airstream into a mobile walk-in coffee shop, manage the business operations of a retail coffee shop including purchasing, accounting, inventory planning, cash handling, enthusiastic hospitality, customer education and marketing."
     },
@@ -83,8 +83,8 @@
       "company": "Umatilla Electric",
       "position": "IT Analyst II",
       "location": "Hermiston, Oregon",
-      "startDate": "February 2005",
-      "endDate": "August 2013",
+      "startDate": "2005-02-01",
+      "endDate": "2013-08-01",
       "summary":
         "Administration/support of various systems including Windows based desktops, servers (including virtual), Active Directory, iOS/Android devices, VOIP system (Avaya), Building Security systems (Kantech), Asset Inventory system (Footprints), LAN hardware (Juniper), Video Surveillance (Milestone/IQInvision), various industry related applications (Clevest, TWACS, Itron), server room redesign including redundant power distribution, rack space design, cable/patch panel management and environmental monitoring."
     },
@@ -93,8 +93,8 @@
       "company": "Excell Data/Weyerhaeuser",
       "position": "System Administor",
       "location": "Federal Way, Washington",
-      "startDate": "January 2004",
-      "endDate": "June 2004",
+      "startDate": "2004-01-01",
+      "endDate": "2004-06-01",
       "summary":
         "Dedicated on-site contractor for EDS at Weyerhaeuser doing Windows 2000/NT domain user account creations, deletions and administration using Active Directory, Exchange mailbox creations, deletions and administration using Active Directory and Exchange Administrator, group security permissions, share creations, break/fix resolutions, documentation."
     },
@@ -103,8 +103,8 @@
       "company": "AT&T Wireless",
       "position": "Network/System Specialist",
       "location": "Redmond, Washington",
-      "startDate": "July 1999",
-      "endDate": "December 2001",
+      "startDate": "1999-07-01",
+      "endDate": "2001-12-01",
       "summary":
         "Administration/support of enterprise Windows based desktops (2,000), servers (100+), NT accounts, printers, Exchange accounts, IIS, asset tracking, etc."
     }
@@ -114,7 +114,7 @@
       "organization": "United Church of God",
       "position": "Co-Counselor",
       "website": "http://uyc.ucg.org/",
-      "startDate": "Summer 2016",
+      "startDate": "2016",
       "summary":
         "Help guide 7-9 year olds through a week of camp activities while teaching biblical concepts in ways they can understand and utilize after leaving camp."
     },
@@ -131,8 +131,8 @@
       "institution": "Udacity",
       "area": "Front End Development",
       "studyType": "Online",
-      "startDate": "Late 2015",
-      "endDate": "Late 2017",
+      "startDate": "2015-08-01",
+      "endDate": "2017-11-01",
       "courses": [
         "ReactJS Nanodegree",
         "Intro to HTML and CSS",
@@ -144,16 +144,16 @@
       "institution": "Human Javascript",
       "area": "React",
       "studyType": "Online",
-      "startDate": "Early 2017",
-      "endDate": "Early 2017",
+      "startDate": "2017-02-01",
+      "endDate": "2017-02-01",
       "courses": ["Henrik Joreteg Video Series"]
     },
     {
       "institution": "Coursera",
       "area": "Full Stack Frameworks",
       "studyType": "Online",
-      "startDate": "Mid 2016",
-      "endDate": "Late 2016",
+      "startDate": "2016-05-01",
+      "endDate": "2016-11-01",
       "courses": [
         "HTML/CSS/JS",
         "Front-End Web-UI Frameworks",

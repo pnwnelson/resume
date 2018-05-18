@@ -51,11 +51,11 @@ export default class WorkItem extends Component {
 
   getWorkDates() {
     const startdate = moment(this.props.workItemData.startDate).format(
-      "MMM, YYYY"
+      "MMM YYYY"
     );
     let enddate = null;
     if (this.props.workItemData.endDate !== "") {
-      enddate = moment(this.props.workItemData.endDate).format("MMM, YYYY");
+      enddate = moment(this.props.workItemData.endDate).format("MMM YYYY");
     } else {
       enddate = "Present";
     }

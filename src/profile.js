@@ -53,7 +53,10 @@ const Profile = props => {
 						<a href="https://jsonresume.org/" target="bobdole">
 							JSON Resume Schema
 						</a>, deployed via simple command line to{" "}
-						<a href="http://surge.sh/"> Surge.sh</a>.
+						<a href="http://surge.sh/" target="bobdole">
+							{" "}
+							Surge.sh
+						</a>.
 					</p>
 					<hr />
 					<div className="text-center">
