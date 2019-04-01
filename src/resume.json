@@ -214,8 +214,8 @@
       "website": "http://pnwnelson.com",
       "icon": "img/pnwnelson-icon.jpg",
       "summary":
-        "My own website displaying my photography work through a Flickr API. Built with HJS-Webpack/React and deployed to Surge.sh",
-      "tools": ["ReactJS", "Bootstrap", "hjs-webpack", "HTML", "CSS", "Surge", "API"]
+        "My own website displaying my photography work through a Flickr API. Contact email form using NodeJS server (ExpressJS) hosted on Heroku. Built with HJS-Webpack/React and deployed to Surge.sh",
+      "tools": ["ReactJS", "Bootstrap", "hjs-webpack", "HTML", "CSS", "NodeJS", "ExpressJS", "Surge", "API", "Heroku"]
     },
     {
       "name": "My Reads",
@@ -247,6 +247,7 @@
         "Bootstrap",
         "Jekyll",
         "React",
+        "ExpressJS",
         "Angular",
         "Javascript",
         "ES6",
@@ -263,6 +264,7 @@
         "Surge.sh",
         "Vagrant",
         "Bitnami",
+        "Heroku",
         "EC2"
       ]
     }
