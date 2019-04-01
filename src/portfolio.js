@@ -14,7 +14,7 @@ const Portfolio = props => {
 	return (
 		<section className="section-boxes">
 			<h3 className="text-uppercase">
-				<FontAwesome className="icon-box" name="paint-brush" /> Portfolio
+				<FontAwesome className="icon-box" name="paint-brush" /> Personal Projects
 			</h3>
 			{getPortfolio()}
 		</section>

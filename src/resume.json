@@ -2,12 +2,12 @@
   "basics": {
     "name": "Kelly Nelson",
     "label": "Web Developer",
-    "picture": "img/ProfilePic.gif",
+    "picture": "img/2018ProfPic2.jpg",
     "email": "nelson20@gmail.com",
     "phone": "509-727-3168",
     "website": "http://resume.pnwnelson.com",
     "summary":
-      "My cumulation of life decisions has me as a web developer with one eye always on design. Currently, I'm seeking employment as a Front End Web Developer. I am also attempting world dominance by doing freelance architectural photography.",
+      "My cumulation of life decisions has me as a web developer with one eye always on design. Currently, I'm focused on developing in the VueJS and ReactJS frameworks but I'm hungry to contribute to any project in a meaningful way. I love to learn new technologies and add to my toolbelt. I enjoy working in teams but also know the importance of working independently. I'm humble enough to know my limitations, but that also provides my drive to be better.",
     "location": {
       "city": "Tri-Cities",
       "countryCode": "US",
@@ -32,6 +32,23 @@
     ]
   },
   "work": [
+    {
+      "id": 1,
+      "company": "Halo Platform",
+      "position": "Front End Web Developer",
+      "location": "Remote",
+      "startDate": "2018-08-04",
+      "endDate": "",
+      "summary":
+        "Built the front end of a player's hub web app for a blockchain based gaming ecosystem, leveraging frameworks such as VueJS, VueX, and Tachyons CSS along with the Gamesparks SDK and API's for player auth, game data and account administration. Participated in UI design reviews, sprint reviews, and retrospectives. Managed sprint tasks and goals in Waffle and Github. Maintained existing corporate websites, using HTML/Bootstrap/JS with the Jekyll development framework.",
+      "tools": ["VueJS", "VueX", "Tachyons CSS", "HTML", "CSS", "Bootstrap", "Jekyll", "API", "Netlify"],
+      "workExamples": [
+        {
+          "url": "https://www.youtube.com/embed/fIanY_B43uI",
+          "alt": "Player Central and Crypto Cage"
+        }
+      ]
+    },
     {
       "id": 1,
       "company": "Fluke Corporation",
@@ -176,8 +193,12 @@
       "website": "http://hymnsbg.info",
       "icon": "img/hymnsbg-icon.png",
       "summary":
-        "Web app that allows for page and title searching of hymns from various church hymnals. Built with MeanJS scaffolding and deployed to EC2 on AWS using a Bitnami MEAN stack.",
+        "Web app that allows for page and title searching of hymns from various church hymnals. Version 1 was Built with MeanJS scaffolding and deployed to EC2 on AWS using a Bitnami MEAN stack. Version 2, the current version, was refactored using VueJs, VueX and JSON data.",
       "tools": [
+        "VueJS",
+        "VueX",
+        "Tachyons CSS",
+        "Surge",
         "Angular",
         "Bootstrap",
         "MongoDB",
@@ -194,7 +215,7 @@
       "icon": "img/pnwnelson-icon.jpg",
       "summary":
         "My own website displaying my photography work through a Flickr API. Built with HJS-Webpack/React and deployed to Surge.sh",
-      "tools": ["ReactJS", "Bootstrap", "hjs-webpack", "HTML", "CSS", "Surge"]
+      "tools": ["ReactJS", "Bootstrap", "hjs-webpack", "HTML", "CSS", "Surge", "API"]
     },
     {
       "name": "My Reads",
@@ -220,7 +241,11 @@
       "keywords": [
         "HTML",
         "CSS",
+        "VueJS",
+        "VueX",
+        "Tachyons CSS",
         "Bootstrap",
+        "Jekyll",
         "React",
         "Angular",
         "Javascript",
@@ -229,10 +254,12 @@
         "SASS",
         "Gulp",
         "Grunt",
-        "Node",
+        "NodeJS",
         "NPM",
+        "Yarn",
         "Git",
         "Github",
+        "Netlify",
         "Surge.sh",
         "Vagrant",
         "Bitnami",

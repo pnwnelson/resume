@@ -46,10 +46,10 @@ const App = props => {
               transitionEnter={false}
               transitionLeave={false}
             >
+              <Skills skillsData={skillsData} />
               <Portfolio portfolioData={portfolioData} />
               <Work workData={workData} />
               <Education educationData={educationData} />
-              <Skills skillsData={skillsData} />
             </ReactCSSTransitionGroup>
           </Col>
         </Row>

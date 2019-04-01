@@ -29,17 +29,17 @@ export default class WorkItem extends Component {
     this.closeModal = this.closeModal.bind(this);
   }
 
-  componentDidMount() {
-    // Need to hide an the HTML element if the json key "workExamples" exists.
-    // Check the JSON object for the key "workExamples"
-    if (this.props.workItemData.workExamples) {
-      // Change element styling to visible
-      document.getElementById("work-examples").style.visibility = "visible";
-    } else {
-      // stay hidden
-      return;
-    }
-  }
+  // componentDidMount() {
+  //   // Need to hide an the HTML element if the json key "workExamples" exists.
+  //   // Check the JSON object for the key "workExamples"
+  //   if (this.props.workItemData.workExamples) {
+  //     // Change element styling to visible
+  //     document.getElementById("work-examples").style.visibility = "visible";
+  //   } else {
+  //     // stay hidden
+  //     return;
+  //   }
+  // }
 
   openModal() {
     this.setState({ modalIsOpen: true });
@@ -78,6 +78,7 @@ export default class WorkItem extends Component {
               {this.props.workItemData.company}
             </span>
           </h4>
+          {this.props.workItemData.workExamples ? 
           <span id="work-examples" className="work-examples">
             <button className="btn-modal-open" onClick={this.openModal}>
               Examples of Work
@@ -102,11 +103,27 @@ export default class WorkItem extends Component {
                       return (
                         <li key={i}>
                           <hr />
+                          <p>{item.alt}</p>
+                          {item.url ?
+                          <div className="video-container">
+                            <iframe
+                              className="d-block p-3"
+                              width="560" 
+                              height="315" 
+                              src={item.url} 
+                              frameBorder="0" 
+                              allowFullScreen>
+                            </iframe>
+                          </div>
+                          
+                          : null }
+                          {item.img ? 
                           <img
                             className="modal-image"
                             src={item.img}
                             alt={item.alt}
-                          />
+                          /> 
+                          : null }
                         </li>
                       );
                     })}
@@ -114,6 +131,7 @@ export default class WorkItem extends Component {
               </div>
             </Modal>
           </span>
+          : null }
         </div>
         <div className="work-dates-summary">
           <p className="dates">{this.getWorkDates()}</p>
