@@ -90,7 +90,7 @@ export default class WorkItem extends Component {
               style={customStyles}
             >
               <div className="modal-title-bar">
-                <h2 className="modal-title">Landing Pages</h2>
+                <h2 className="modal-title">Projects</h2>
                 <button className="btn-modal-close" onClick={this.closeModal}>
                   close
                 </button>
@@ -103,14 +103,17 @@ export default class WorkItem extends Component {
                       return (
                         <li key={i}>
                           <hr />
-                          <p>{item.alt}</p>
                           {item.url ?
+                          <a href={item.url} target="_blank"><p>{item.alt}</p></a>
+                        : <p>{item.alt}</p>
+                        }  
+                          {item.video ?
                           <div className="video-container">
                             <iframe
                               className="d-block p-3"
                               width="560" 
                               height="315" 
-                              src={item.url} 
+                              src={item.video} 
                               frameBorder="0" 
                               allowFullScreen>
                             </iframe>

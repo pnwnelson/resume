@@ -40,12 +40,13 @@
       "startDate": "2018-08-04",
       "endDate": "",
       "summary":
-        "Built the front end of a player's hub web app for a blockchain based gaming ecosystem, leveraging frameworks such as VueJS, VueX, and Tachyons CSS along with the Gamesparks SDK and API's for player auth, game data and account administration. Participated in UI design reviews, sprint reviews, and retrospectives. Managed sprint tasks and goals in Waffle and Github. Maintained existing corporate websites, using HTML/Bootstrap/JS with the Jekyll development framework.",
+        "Co-designed and developed the front end of a player's hub web app, as well as a cryptocurrency wallet system, for a blockchain based gaming ecosystem. I leveraged frameworks such as VueJS, VueX and Tachyons CSS along with consuming the Gamesparks SDK and varioius API's for player auth, game data and account administration. Participated in UI design reviews, sprint reviews, and retrospectives. Managed sprint tasks and goals in Waffle and Github. Maintained existing corporate websites, using HTML/Bootstrap/JS with the Jekyll development framework.",
       "tools": ["VueJS", "VueX", "Tachyons CSS", "HTML", "CSS", "Bootstrap", "Jekyll", "API", "Netlify"],
       "workExamples": [
         {
-          "url": "https://www.youtube.com/embed/fIanY_B43uI",
-          "alt": "Player Central and Crypto Cage"
+          "video": "https://www.youtube.com/embed/2roY5rkfg0M",
+          "alt": "Player Central and Crypto Cage",
+          "url": "https://playercentral.games"
         }
       ]
     },
