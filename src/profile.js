@@ -97,6 +97,9 @@ const Profile = props => {
 						</a>
 					</div>
 					<hr />
+					<div className="text-center">
+						<a href="/img/KellyNelsonResume.pdf" download>Download Resume</a>
+					</div>
 				</div>
 			</section>
 		</div>
