@@ -56,7 +56,7 @@ const Profile = props => {
 						<a href="http://surge.sh/" target="bobdole">
 							{" "}
 							Surge.sh
-						</a>.
+						</a> while I was learning React.
 					</p>
 					<hr />
 					<div className="text-center">
