@@ -34,6 +34,28 @@
   "work": [
     {
       "id": 1,
+      "company": "REI",
+      "position": "Front End Engineer",
+      "location": "Kent, Washington",
+      "startDate": "2019-09-26",
+      "endDate": "",
+      "summary":
+        "Onsite contractor at REI headquarters. Part of the platform front end team that provided Thymeleaf based global templating, built on a microsite architecture. Helped maintain and update the libraries which other REI front end engineers used to convert the monolith to a new microsite. Joined late focus on web performance improvements.",
+      "tools": ["Java", "Spring MVC", "Maven", "HTML", "CSS", "Jenkins", "Jekyll", "API", "IntelliJ"]
+    },
+    {
+      "id": 2,
+      "company": "Honor Tag",
+      "position": "Front End Web Developer",
+      "location": "Remote",
+      "startDate": "2019-08-04",
+      "endDate": "2020-03-01",
+      "summary":
+        "Was part of a small startup team that built the MVP of a webapp that provided a way for veterans to share their military experiences. I leveraged frameworks such as VueJS, VueX and Tachyons CSS along with consuming the Firebase SDK using Firestore as the backend for database, authentication and serverless functions using ExpressJS. Participated in UI/UX design reviews and sprint reviews. Managed sprint tasks and goals in Trello. The build/deploy pipeline used Github and Netlify.",
+      "tools": ["VueJS", "VueX", "Tachyons CSS", "HTML", "CSS", "Firebase", "Firestore", "Github", "Netlify"]
+    },
+    {
+      "id": 3,
       "company": "Halo Platform",
       "position": "Front End Web Developer",
       "location": "Remote",
@@ -51,7 +73,7 @@
       ]
     },
     {
-      "id": 1,
+      "id": 4,
       "company": "Fluke Corporation",
       "position": "Front End Web Developer",
       "location": "Everett, Washington",
@@ -87,7 +109,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 5,
       "company": "Ström Coffee",
       "position": "Owner/Operator",
       "location": "Richland, Washington",
@@ -97,7 +119,7 @@
         "Acquire, design and build out a 1964 Airstream into a mobile walk-in coffee shop, manage the business operations of a retail coffee shop including purchasing, accounting, inventory planning, cash handling, enthusiastic hospitality, customer education and marketing."
     },
     {
-      "id": 3,
+      "id": 6,
       "company": "Umatilla Electric",
       "position": "IT Analyst II",
       "location": "Hermiston, Oregon",
@@ -107,7 +129,7 @@
         "Administration/support of various systems including Windows based desktops, servers (including virtual), Active Directory, iOS/Android devices, VOIP system (Avaya), Building Security systems (Kantech), Asset Inventory system (Footprints), LAN hardware (Juniper), Video Surveillance (Milestone/IQInvision), various industry related applications (Clevest, TWACS, Itron), server room redesign including redundant power distribution, rack space design, cable/patch panel management and environmental monitoring."
     },
     {
-      "id": 4,
+      "id": 7,
       "company": "Excell Data/Weyerhaeuser",
       "position": "System Administor",
       "location": "Federal Way, Washington",
@@ -117,7 +139,7 @@
         "Dedicated on-site contractor for EDS at Weyerhaeuser doing Windows 2000/NT domain user account creations, deletions and administration using Active Directory, Exchange mailbox creations, deletions and administration using Active Directory and Exchange Administrator, group security permissions, share creations, break/fix resolutions, documentation."
     },
     {
-      "id": 5,
+      "id": 8,
       "company": "AT&T Wireless",
       "position": "Network/System Specialist",
       "location": "Redmond, Washington",
@@ -132,7 +154,7 @@
       "organization": "United Church of God",
       "position": "Co-Counselor",
       "website": "http://uyc.ucg.org/",
-      "startDate": "2016",
+      "startDate": "2016, 2018, 2019",
       "summary":
         "Help guide 7-9 year olds through a week of camp activities while teaching biblical concepts in ways they can understand and utilize after leaving camp."
     },
@@ -182,6 +204,14 @@
   ],
   "portfolio": [
     {
+      "name": "Yolk Folks",
+      "website": "https://www.yolkfolks.com",
+      "icon": "img/icons-512.png",
+      "summary":
+        "A responsive web app that provided a way to buy and sell eggs from backyard chickens. Leveraged frameworks such as VueJS, VueX and Tachyons CSS along with consuming the Firebase SDK using Firestore as the backend for database, authentication and serverless functions using ExpressJS. The build/deploy pipeline used Github and Netlify.",
+      "tools": ["VueJS", "VueX", "HTML", "Tachyons CSS", "Netlify"]
+    },
+    {
       "name": "Monopoly Calculator",
       "website": "http://monopoly-calc.com",
       "icon": "img/monopoly-icon.png",
@@ -217,14 +247,6 @@
       "summary":
         "My own website displaying my photography work through a Flickr API. Contact email form using NodeJS server (ExpressJS) hosted on Heroku. Built with HJS-Webpack/React and deployed to Surge.sh",
       "tools": ["ReactJS", "Bootstrap", "hjs-webpack", "HTML", "CSS", "NodeJS", "ExpressJS", "Surge", "API", "Heroku"]
-    },
-    {
-      "name": "My Reads",
-      "website": "http://pnwnelsonmyreads.surge.sh/",
-      "icon": "img/placeholder-icon.png",
-      "summary":
-        "A responsive web app that allows users to select and catagorize books into a virtual bookshelf. Leveraged React to support a dynamic user interface that interacts with an API server and client library. This was a project built during Udacity's React Nanodegree program.",
-      "tools": ["ReactJS", "HTML", "CSS", "Webpack", "Surge"]
     },
     {
       "name": "Tri-Cities Launch",
