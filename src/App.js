@@ -47,8 +47,8 @@ const App = props => {
               transitionLeave={false}
             >
               <Skills skillsData={skillsData} />
-              <Portfolio portfolioData={portfolioData} />
               <Work workData={workData} />
+              <Portfolio portfolioData={portfolioData} />
               <Education educationData={educationData} />
             </ReactCSSTransitionGroup>
           </Col>
