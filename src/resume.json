@@ -40,7 +40,7 @@
       "startDate": "2019-09-26",
       "endDate": "",
       "summary":
-        "Onsite contractor at REI headquarters. Part of the platform front end team that provided Thymeleaf Java based global templating, built on a microsite architecture. Helped maintain and update Spring MVC libraries which other REI front end engineers used to convert the monolith to a new microsite. Joined late focus on web performance improvements.",
+        "Onsite contractor at REI headquarters. Part of the platform front end team that was tasked with improving Java based global templating using Thymeleaf for the micro front-end architecture to enable code reuse across multiple applications. Primary projects included maintaining Spring MVC libraries used by other REI engineers to convert the existing monolith to new microsites as well as having a focus on web performance improvements with the product pages.",
       "tools": ["Java", "Spring MVC", "Maven", "HTML", "CSS", "Jenkins", "API", "IntelliJ"]
     },
     {
