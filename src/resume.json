@@ -38,20 +38,20 @@
       "position": "Front End Engineer",
       "location": "Kent, Washington",
       "startDate": "2019-09-26",
-      "endDate": "",
+      "endDate": "2020-05-01",
       "summary":
         "Onsite contractor at REI headquarters. Part of the platform front end team that was tasked with improving Java based global templating using Thymeleaf for the micro front-end architecture to enable code reuse across multiple applications. Primary projects included maintaining Spring MVC libraries used by other REI engineers to convert the existing monolith to new microsites as well as having a focus on web performance improvements with the product pages.",
-      "tools": ["Java", "Spring MVC", "Maven", "HTML", "CSS", "Jenkins", "API", "IntelliJ"]
+      "tools": ["Java", "Spring MVC", "Maven", "Thymeleaf", "HTML", "CSS", "Jenkins", "API", "IntelliJ"]
     },
     {
       "id": 2,
       "company": "Honor Tag",
-      "position": "Front End Web Developer",
+      "position": "Full Stack Web Developer",
       "location": "Remote",
       "startDate": "2019-08-04",
       "endDate": "2020-03-01",
       "summary":
-        "Was part of a small startup team that built the MVP of a webapp that provided a way for veterans to share their military experiences. I leveraged frameworks such as VueJS, VueX and Tachyons CSS along with consuming the Firebase SDK using Firestore as the backend for database, authentication and serverless functions using ExpressJS. Participated in UI/UX design reviews and sprint reviews. Managed sprint tasks and goals in Trello. The build/deploy pipeline used Github and Netlify.",
+        "Was part of a small startup team that built the MVP of a webapp that provided a way for veterans to share their military experiences. My role leveraged VueJS, VueX and Tachyons CSS along with consuming the Firebase SDK using Firestore as the backend for database, authentication and serverless functions using ExpressJS. Participated in UI/UX design reviews and sprint reviews. Managed sprint tasks and goals in Trello. The build/deploy pipeline used Github (Github Flow) and Netlify.",
       "tools": ["VueJS", "VueX", "Tachyons CSS", "HTML", "CSS", "Firebase", "Firestore", "Github", "Netlify"]
     },
     {
@@ -208,16 +208,16 @@
       "website": "https://www.yolkfolks.com",
       "icon": "img/icons-512.png",
       "summary":
-        "A responsive web app that provided a way to buy and sell eggs from backyard chickens. Leveraged frameworks such as VueJS, VueX and Tachyons CSS along with consuming the Firebase SDK using Firestore as the backend for database, authentication and serverless functions using ExpressJS. The build/deploy pipeline used Github and Netlify.",
-      "tools": ["VueJS", "VueX", "HTML", "Tachyons CSS", "Netlify"]
+        "A responsive web app that provides a marketplace to buy and sell eggs from backyard chickens. Leverages frameworks such as VueJS, VueX and Tachyons CSS along with consuming the Firebase SDK using Firestore as the backend for authentication,  database, database triggers, Cloud storage and serverless functions using ExpressJS. Consumes the Stripe API, using Stripe Connect as a marketplace payment processor mechanism. The build/deploy pipeline uses Github and Netlify.",
+      "tools": ["VueJS", "VueX", "Tachyons CSS", "HTML", "CSS", "Firebase", "Firestore", "Stripe API", "Github", "Netlify"]
     },
     {
       "name": "Monopoly Calculator",
       "website": "http://monopoly-calc.com",
       "icon": "img/monopoly-icon.png",
       "summary":
-        "Web app for Monopoly to calculate the total net worth of a Monopoly game winner. Built with Create-React-App and deployed through Surge.sh",
-      "tools": ["ReactJS", "Bootstrap", "HTML", "CSS", "Surge"]
+        "Web app for Monopoly to calculate the total net worth of a Monopoly game winner. Built with Create-React-App. The build/deploy pipeline uses Github and Netlify.",
+      "tools": ["ReactJS", "Tachyons CSS", "HTML", "CSS", "Netlify"]
     },
     {
       "name": "Hymns Background",
@@ -269,11 +269,14 @@
         "Tachyons CSS",
         "Bootstrap",
         "Jekyll",
-        "React",
+        "ReactJS",
         "ExpressJS",
-        "Angular",
+        "AngularJS",
         "Javascript",
         "ES6",
+        "Firebase",
+        "Firestore",
+        "Google Analytics",
         "MongoDB",
         "SASS",
         "Gulp",

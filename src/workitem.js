@@ -140,6 +140,19 @@ export default class WorkItem extends Component {
           <p className="dates">{this.getWorkDates()}</p>
           <p>{this.props.workItemData.summary}</p>
         </div>
+        {this.props.workItemData.tools ?
+        <div>
+        Tools: <ul className="list-inline port-tools-list">
+            {this.props.workItemData.tools && this.props.workItemData.tools.map((item, i) => {
+              return (
+                <li key={i}>
+                  <span className="label label-success">{item}</span>
+                </li>
+              )
+            })}
+          </ul>
+        </div>
+        : null }
       </div>
     );
   }
