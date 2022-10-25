@@ -7,7 +7,7 @@
     "phone": "509-727-3168",
     "website": "http://resume.pnwnelson.com",
     "summary":
-      "My cumulation of life decisions has me as a web developer with around 3 years of experience. Currently, I'm focused on developing in the VueJS framework but I'm hungry to contribute to any project using any tech stack in a meaningful way. I love to learn new technologies and add to my toolbelt. I enjoy working in teams (onsite or remote) but also know the importance of working independently. I deeply care about product and user experience; I'm always looking to improve both. I'm humble enough to know my limitations, but that also provides my drive to be better.",
+      "I am a motivated frontend web developer with an interest in product design. Currently focused on developing in the VueJS framework with GraphQL.",
     "location": {
       "city": "Tri-Cities",
       "countryCode": "US",
@@ -32,6 +32,17 @@
     ]
   },
   "work": [
+    {
+      "id": 0,
+      "company": "E-By Design",
+      "position": "Full Stack Web Developer",
+      "location": "Remote",
+      "startDate": "2020-10-01",
+      "endDate": "",
+      "summary":
+        "Onsite contractor at REI headquarters. Part of the platform front end team that was tasked with improving Java based global templating using Thymeleaf for the micro front-end architecture to enable code reuse across multiple applications. Primary projects included maintaining Spring MVC libraries used by other REI engineers to convert the existing monolith to new microsites as well as having a focus on web performance improvements with the product pages.",
+      "tools": ["VueJS", "Vuex", "Pinia", "GraphQL", "Neo4J", "Azure Function Server", "Azure DevOps", "HTML", "CSS", "API"]
+    },
     {
       "id": 1,
       "company": "REI",
@@ -60,7 +71,7 @@
       "position": "Front End Web Developer",
       "location": "Remote",
       "startDate": "2018-08-04",
-      "endDate": "",
+      "endDate": "2019-02-28",
       "summary":
         "Co-designed and developed the front end of a player's hub web app, as well as a cryptocurrency wallet system, for a blockchain based gaming ecosystem. I leveraged frameworks such as VueJS, VueX and Tachyons CSS along with consuming the Gamesparks SDK and various API's for player auth, game data and account administration. Participated in UI design reviews, sprint reviews, and retrospectives. Managed sprint tasks and goals in Waffle and Github. Maintained existing corporate websites, using HTML/Bootstrap/JS with the Jekyll development framework.",
       "tools": ["VueJS", "VueX", "Tachyons CSS", "HTML", "CSS", "Bootstrap", "Jekyll", "API", "Netlify"],
@@ -220,41 +231,12 @@
       "tools": ["ReactJS", "Tachyons CSS", "HTML", "CSS", "Netlify"]
     },
     {
-      "name": "Hymns Background",
-      "website": "http://hymnsbg.info",
-      "icon": "img/hymnsbg-icon.png",
-      "summary":
-        "Web app that allows for page and title searching of hymns from various church hymnals. Version 1 was Built with MeanJS scaffolding and deployed to EC2 on AWS using a Bitnami MEAN stack. Version 2, the current version, was refactored using VueJs, VueX and JSON data.",
-      "tools": [
-        "VueJS",
-        "VueX",
-        "Tachyons CSS",
-        "Surge",
-        "Angular",
-        "Bootstrap",
-        "MongoDB",
-        "Express",
-        "HTML",
-        "CSS",
-        "AWS/EC2",
-        "Bitnami"
-      ]
-    },
-    {
       "name": "Kelly Nelson Photography",
       "website": "http://pnwnelson.com",
       "icon": "img/pnwnelson-icon.jpg",
       "summary":
         "My own website displaying my photography work through a Flickr API. Contact email form using NodeJS server (ExpressJS) hosted on Heroku. Built with HJS-Webpack/React and deployed to Surge.sh",
       "tools": ["ReactJS", "Bootstrap", "hjs-webpack", "HTML", "CSS", "NodeJS", "ExpressJS", "Surge", "API", "Heroku"]
-    },
-    {
-      "name": "Tri-Cities Launch",
-      "website": "http://tclaunch.surge.sh",
-      "icon": "img/placeholder-icon.png",
-      "summary":
-        "Informational single page website for the 2016 version of Tri-Cities Launch.",
-      "tools": ["Bootstrap", "HTML", "CSS", "SASS", "Surge"]
     }
   ],
   "skills": [
@@ -262,20 +244,22 @@
       "name": "Front End Development",
       "level": "Master",
       "keywords": [
-        "HTML",
-        "CSS",
         "VueJS",
         "VueX",
+        "Pinia",
+        "Nuxt",
+        "GraphQL",
+        "Neo4J",
+        "Firebase",
+        "Firestore",
+        "HTML",
+        "CSS",
         "Tachyons CSS",
         "Bootstrap",
         "Jekyll",
-        "ReactJS",
         "ExpressJS",
-        "AngularJS",
         "Javascript",
         "ES6",
-        "Firebase",
-        "Firestore",
         "Google Analytics",
         "MongoDB",
         "SASS",
@@ -287,11 +271,7 @@
         "Git",
         "Github",
         "Netlify",
-        "Surge.sh",
-        "Vagrant",
-        "Bitnami",
-        "Heroku",
-        "EC2"
+        "Surge.sh"
       ]
     }
   ]
