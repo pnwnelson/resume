@@ -75,84 +75,97 @@ export default class WorkItem extends Component {
           <h4>
             {this.props.workItemData.position} at{" "}
             <span className="entity-name">
-              {this.props.workItemData.company}
+              {this.props.workItemData.url ? (
+                <a href={this.props.workItemData.url} target="bobdole">
+                  {this.props.workItemData.company}
+                </a>
+              ) : (
+                this.props.workItemData.company
+              )}
             </span>
           </h4>
-          {this.props.workItemData.workExamples ? 
-          <span id="work-examples" className="work-examples">
-            <button className="btn-modal-open" onClick={this.openModal}>
-              Examples of Work
-            </button>
-            <Modal
-              isOpen={this.state.modalIsOpen}
-              onAfterOpen={this.afterOpenModal}
-              onRequestClose={this.closeModal}
-              style={customStyles}
-            >
-              <div className="modal-title-bar">
-                <h2 className="modal-title">Projects</h2>
-                <button className="btn-modal-close" onClick={this.closeModal}>
-                  close
-                </button>
-                <p>Here are some examples of my work</p>
-              </div>
-              <div>
-                <ul className="list-unstyled">
-                  {this.props.workItemData.workExamples &&
-                    this.props.workItemData.workExamples.map(function(item, i) {
-                      return (
-                        <li key={i}>
-                          <hr />
-                          {item.url ?
-                          <a href={item.url} target="_blank"><p>{item.alt}</p></a>
-                        : <p>{item.alt}</p>
-                        }  
-                          {item.video ?
-                          <div className="video-container">
-                            <iframe
-                              className="d-block p-3"
-                              width="560" 
-                              height="315" 
-                              src={item.video} 
-                              frameBorder="0" 
-                              allowFullScreen>
-                            </iframe>
-                          </div>
-                          
-                          : null }
-                          {item.img ? 
-                          <img
-                            className="modal-image"
-                            src={item.img}
-                            alt={item.alt}
-                          /> 
-                          : null }
-                        </li>
-                      );
-                    })}
-                </ul>
-              </div>
-            </Modal>
-          </span>
-          : null }
+          {this.props.workItemData.workExamples ? (
+            <span id="work-examples" className="work-examples">
+              <button className="btn-modal-open" onClick={this.openModal}>
+                Examples of Work
+              </button>
+              <Modal
+                isOpen={this.state.modalIsOpen}
+                onAfterOpen={this.afterOpenModal}
+                onRequestClose={this.closeModal}
+                style={customStyles}
+              >
+                <div className="modal-title-bar">
+                  <h2 className="modal-title">Projects</h2>
+                  <button className="btn-modal-close" onClick={this.closeModal}>
+                    close
+                  </button>
+                  <p>Here are some examples of my work</p>
+                </div>
+                <div>
+                  <ul className="list-unstyled">
+                    {this.props.workItemData.workExamples &&
+                      this.props.workItemData.workExamples.map(function (
+                        item,
+                        i
+                      ) {
+                        return (
+                          <li key={i}>
+                            <hr />
+                            {item.url ? (
+                              <a href={item.url} target="_blank">
+                                <p>{item.alt}</p>
+                              </a>
+                            ) : (
+                              <p>{item.alt}</p>
+                            )}
+                            {item.video ? (
+                              <div className="video-container">
+                                <iframe
+                                  className="d-block p-3"
+                                  width="560"
+                                  height="315"
+                                  src={item.video}
+                                  frameBorder="0"
+                                  allowFullScreen
+                                ></iframe>
+                              </div>
+                            ) : null}
+                            {item.img ? (
+                              <img
+                                className="modal-image"
+                                src={item.img}
+                                alt={item.alt}
+                              />
+                            ) : null}
+                          </li>
+                        );
+                      })}
+                  </ul>
+                </div>
+              </Modal>
+            </span>
+          ) : null}
         </div>
         <div className="work-dates-summary">
           <p className="dates">{this.getWorkDates()}</p>
           <p>{this.props.workItemData.summary}</p>
         </div>
-        {this.props.workItemData.tools ?
-        <div>
-        Tools: <ul className="list-inline port-tools-list">
-            {this.props.workItemData.tools && this.props.workItemData.tools.map((item, i) => {
-              return (
-                <li key={i}>
-                  <span className="label label-success">{item}</span>
-                </li>
-              )
-            })}
-          </ul>
-        </div>
-        : null }
+        {this.props.workItemData.tools ? (
+          <div>
+            Tools:{" "}
+            <ul className="list-inline port-tools-list">
+              {this.props.workItemData.tools &&
+                this.props.workItemData.tools.map((item, i) => {
+                  return (
+                    <li key={i}>
+                      <span className="label label-success">{item}</span>
+                    </li>
+                  );
+                })}
+            </ul>
+          </div>
+        ) : null}
       </div>
     );
   }
