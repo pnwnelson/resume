@@ -35,17 +35,19 @@
     {
       "id": 0,
       "company": "E-By Design",
+      "url": "https://e-bydesign.ca",
       "position": "Full Stack Web Developer",
       "location": "Remote",
       "startDate": "2020-10-01",
       "endDate": "",
       "summary":
-        "Onsite contractor at REI headquarters. Part of the platform front end team that was tasked with improving Java based global templating using Thymeleaf for the micro front-end architecture to enable code reuse across multiple applications. Primary projects included maintaining Spring MVC libraries used by other REI engineers to convert the existing monolith to new microsites as well as having a focus on web performance improvements with the product pages.",
+        "Mostly frontend side of a team building a SaaS platform for managing VIP accounts. Leveraging VueJS (Nuxt 3), GraphQL, Neo4J/Cypher queries but also building in Azure function servers and Azure Event Hubs. Third party tools included Okta for the authentication, Twilio Client for in-app phone and SMS communications and Apollo for the GraphQL client/server.",
       "tools": ["VueJS", "Vuex", "Pinia", "GraphQL", "Neo4J", "Azure Function Server", "Azure DevOps", "HTML", "CSS", "API"]
     },
     {
       "id": 1,
       "company": "REI",
+      "url": "https://rei.com",
       "position": "Front End Engineer",
       "location": "Kent, Washington",
       "startDate": "2019-09-26",
@@ -57,6 +59,7 @@
     {
       "id": 2,
       "company": "Honor Tag",
+      "url": "https://www.honor-tag.com",
       "position": "Full Stack Web Developer",
       "location": "Remote",
       "startDate": "2019-08-04",
@@ -86,6 +89,7 @@
     {
       "id": 4,
       "company": "Fluke Corporation",
+      "url": "https://www.fluke.com/",
       "position": "Front End Web Developer",
       "location": "Everett, Washington",
       "startDate": "2017-11-01",
@@ -132,6 +136,7 @@
     {
       "id": 6,
       "company": "Umatilla Electric",
+      "url": "https://www.umatillaelectric.com/",
       "position": "IT Analyst II",
       "location": "Hermiston, Oregon",
       "startDate": "2005-02-01",
