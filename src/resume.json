@@ -7,7 +7,7 @@
     "phone": "509-727-3168",
     "website": "http://resume.pnwnelson.com",
     "summary":
-      "I am a motivated frontend web developer with an interest in product design. Currently focused on developing in the VueJS framework with GraphQL.",
+      "I am a motivated Full Stack Web Developer with an interest in product design. Currently focused on developing in the VueJS framework with GraphQL.",
     "location": {
       "city": "Tri-Cities",
       "countryCode": "US",
@@ -34,18 +34,30 @@
   "work": [
     {
       "id": 0,
+      "company": "O'Reilly Auto Parts",
+      "url": "https://www.oreillyauto.com/",
+      "position": "Front End Web Developer",
+      "location": "Remote",
+      "startDate": "2023-01-03",
+      "endDate": "",
+      "summary":
+        "Helped maintained a VueJS and Thymeleaf front end code base while mentoring junior devs in a scrum methodology. Evangelized for a modernized architecture and tech stack, analyzed performance metrics for improvements and gather insights into key e-commerce areas such as checkout and product pages.",
+      "tools": ["Vue 3", "Vuex", "Pinia", "Thymeleaf", "Broadleaf", "HTML", "CSS", "API"]
+    },
+    {
+      "id": 1,
       "company": "E-By Design",
       "url": "https://e-bydesign.ca",
       "position": "Full Stack Web Developer",
       "location": "Remote",
       "startDate": "2020-10-01",
-      "endDate": "",
+      "endDate": "2022-12-31",
       "summary":
-        "Mostly frontend side of a team building a SaaS platform for managing VIP accounts. Leveraging VueJS (Nuxt 3), GraphQL, Neo4J/Cypher queries but also building in Azure function servers and Azure Event Hubs. Third party tools included Okta for the authentication, Twilio Client for in-app phone and SMS communications and Apollo for the GraphQL client/server.",
-      "tools": ["VueJS", "Vuex", "Pinia", "GraphQL", "Neo4J", "Azure Function Server", "Azure DevOps", "HTML", "CSS", "API"]
+        "Part of a team building a SaaS platform for managing VIP accounts. Leveraging VueJS (Nuxt 3), GraphQL, Neo4J/Cypher queries but also building in Azure function servers and Azure Event Hubs. Third party tools included Okta/Auth0 for the authentication, Twilio Client for in-app phone and SMS communications and Apollo for the GraphQL client/server.",
+      "tools": ["Vue 3", "Nuxt", "Vuex", "Pinia", "GraphQL", "Neo4J", "Azure Function Server", "Azure DevOps", "HTML", "CSS", "API"]
     },
     {
-      "id": 1,
+      "id": 2,
       "company": "REI",
       "url": "https://rei.com",
       "position": "Front End Engineer",
@@ -57,7 +69,7 @@
       "tools": ["Java", "Spring MVC", "Maven", "Thymeleaf", "HTML", "CSS", "Jenkins", "API", "IntelliJ"]
     },
     {
-      "id": 2,
+      "id": 3,
       "company": "Honor Tag",
       "url": "https://www.honor-tag.com",
       "position": "Full Stack Web Developer",
@@ -69,7 +81,7 @@
       "tools": ["VueJS", "VueX", "Tachyons CSS", "HTML", "CSS", "Firebase", "Firestore", "Github", "Netlify"]
     },
     {
-      "id": 3,
+      "id": 4,
       "company": "Halo Platform",
       "position": "Front End Web Developer",
       "location": "Remote",
@@ -87,7 +99,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "company": "Fluke Corporation",
       "url": "https://www.fluke.com/",
       "position": "Front End Web Developer",
@@ -124,7 +136,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "company": "Ström Coffee",
       "position": "Owner/Operator",
       "location": "Richland, Washington",
@@ -134,7 +146,7 @@
         "Acquire, design and build out a 1964 Airstream into a mobile walk-in coffee shop, manage the business operations of a retail coffee shop including purchasing, accounting, inventory planning, cash handling, enthusiastic hospitality, customer education and marketing."
     },
     {
-      "id": 6,
+      "id": 7,
       "company": "Umatilla Electric",
       "url": "https://www.umatillaelectric.com/",
       "position": "IT Analyst II",
@@ -143,34 +155,14 @@
       "endDate": "2013-08-01",
       "summary":
         "Administration/support of various systems including Windows based desktops, servers (including virtual), Active Directory, iOS/Android devices, VOIP system (Avaya), Building Security systems (Kantech), Asset Inventory system (Footprints), LAN hardware (Juniper), Video Surveillance (Milestone/IQInvision), various industry related applications (Clevest, TWACS, Itron), server room redesign including redundant power distribution, rack space design, cable/patch panel management and environmental monitoring."
-    },
-    {
-      "id": 7,
-      "company": "Excell Data/Weyerhaeuser",
-      "position": "System Administor",
-      "location": "Federal Way, Washington",
-      "startDate": "2004-01-01",
-      "endDate": "2004-06-01",
-      "summary":
-        "Dedicated on-site contractor for EDS at Weyerhaeuser doing Windows 2000/NT domain user account creations, deletions and administration using Active Directory, Exchange mailbox creations, deletions and administration using Active Directory and Exchange Administrator, group security permissions, share creations, break/fix resolutions, documentation."
-    },
-    {
-      "id": 8,
-      "company": "AT&T Wireless",
-      "position": "Network/System Specialist",
-      "location": "Redmond, Washington",
-      "startDate": "1999-07-01",
-      "endDate": "2001-12-01",
-      "summary":
-        "Administration/support of enterprise Windows based desktops (2,000), servers (100+), NT accounts, printers, Exchange accounts, IIS, asset tracking, etc."
     }
   ],
   "volunteer": [
     {
       "organization": "United Church of God",
-      "position": "Co-Counselor",
+      "position": "Co-Counselor, Photographer",
       "website": "http://uyc.ucg.org/",
-      "startDate": "2016, 2018, 2019",
+      "startDate": "2016, 2018, 2019, 2022, 2023",
       "summary":
         "Help guide 7-9 year olds through a week of camp activities while teaching biblical concepts in ways they can understand and utilize after leaving camp."
     },
@@ -234,14 +226,6 @@
       "summary":
         "Web app for Monopoly to calculate the total net worth of a Monopoly game winner. Built with Create-React-App. The build/deploy pipeline uses Github and Netlify.",
       "tools": ["ReactJS", "Tachyons CSS", "HTML", "CSS", "Netlify"]
-    },
-    {
-      "name": "Kelly Nelson Photography",
-      "website": "http://pnwnelson.com",
-      "icon": "img/pnwnelson-icon.jpg",
-      "summary":
-        "My own website displaying my photography work through a Flickr API. Contact email form using NodeJS server (ExpressJS) hosted on Heroku. Built with HJS-Webpack/React and deployed to Surge.sh",
-      "tools": ["ReactJS", "Bootstrap", "hjs-webpack", "HTML", "CSS", "NodeJS", "ExpressJS", "Surge", "API", "Heroku"]
     }
   ],
   "skills": [
@@ -250,18 +234,20 @@
       "level": "Master",
       "keywords": [
         "VueJS",
+        "Vue 3",
         "VueX",
         "Pinia",
-        "Nuxt",
+        "Nuxt 3",
         "GraphQL",
         "Neo4J",
         "Firebase",
         "Firestore",
+        "Azure DevOps",
         "HTML",
         "CSS",
         "Tachyons CSS",
         "Bootstrap",
-        "Jekyll",
+        "Vuetify",
         "ExpressJS",
         "Javascript",
         "ES6",
