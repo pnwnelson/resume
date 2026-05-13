@@ -261,7 +261,7 @@
       "name": "Barrel Rate",
       "website": "https://barrel-rate.com",
       "icon": "img/barrel-rate.png",
-      "summary": "A responsive web app that tracks batting cage sessions with barrel rate analytics. Built for baseball players and coaches.",
+      "summary": "A vibe-coded (to experience Copilot and Claude Sonnet 4.6) responsive web app that tracks batting cage sessions with barrel rate analytics. Built for baseball players and coaches.",
       "tools": [
         "NuxtJS",
         "Pinia",
