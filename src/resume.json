@@ -1,13 +1,12 @@
 {
   "basics": {
     "name": "Kelly Nelson",
-    "label": "Web Developer",
+    "label": "Software Engineer",
     "picture": "img/2018ProfPic2.jpg",
     "email": "nelson20@gmail.com",
     "phone": "509-727-3168",
     "website": "http://resume.pnwnelson.com",
-    "summary":
-      "I am a motivated Full Stack Web Developer with an interest in product design. Currently focused on developing in the VueJS framework with GraphQL.",
+    "summary": "I am a motivated Senior Software Engineer with an interest in product, solutions and architectural design, with a background in Nuxt/VueJS and Firebase/Firestore and many other technologies.",
     "location": {
       "city": "Tri-Cities",
       "countryCode": "US",
@@ -36,13 +35,28 @@
       "id": 0,
       "company": "O'Reilly Auto Parts",
       "url": "https://www.oreillyauto.com/",
-      "position": "Front End Web Developer",
+      "position": "Senior Software Engineer",
       "location": "Remote",
       "startDate": "2023-01-03",
       "endDate": "",
-      "summary":
-        "Helped maintained a VueJS and Thymeleaf front end code base while mentoring junior devs in a scrum methodology. Evangelized for a modernized architecture and tech stack, analyzed performance metrics for improvements and gather insights into key e-commerce areas such as checkout and product pages.",
-      "tools": ["Vue 3", "Vuex", "Pinia", "Thymeleaf", "Broadleaf", "HTML", "CSS", "API"]
+      "summary": "Helped maintain a legacy VueJS and Thymeleaf B2C front end code base while mentoring junior devs in a scrum methodology. Evangelized for and helped design, architect and begin implementation of a modern tech stack and design system. Analyzed SEO & performance metrics for improvements and gathered insights into key e-commerce areas such as checkout and product pages. Collaboration tools included JIRA, Mattermost, Bitbucket, Zoom and Confluence. Additional tools utilized were DynaTrace, Akamai, WebPageTest, Figma.",
+      "tools": [
+        "Vue 2/3",
+        "Nuxt",
+        "Vuex",
+        "Pinia",
+        "Thymeleaf",
+        "Broadleaf",
+        "HTML/CSS",
+        "GTM",
+        "API",
+        "DynaTrace",
+        "Akamai",
+        "WebPageTest",
+        "Figma",
+        "AI",
+        "Copilot"
+      ]
     },
     {
       "id": 1,
@@ -52,9 +66,19 @@
       "location": "Remote",
       "startDate": "2020-10-01",
       "endDate": "2022-12-31",
-      "summary":
-        "Part of a team building a SaaS platform for managing VIP accounts. Leveraging VueJS (Nuxt 3), GraphQL, Neo4J/Cypher queries but also building in Azure function servers and Azure Event Hubs. Third party tools included Okta/Auth0 for the authentication, Twilio Client for in-app phone and SMS communications and Apollo for the GraphQL client/server.",
-      "tools": ["Vue 3", "Nuxt", "Vuex", "Pinia", "GraphQL", "Neo4J", "Azure Function Server", "Azure DevOps", "HTML", "CSS", "API"]
+      "summary": "Part of a team building a SaaS platform for managing VIP accounts. Leveraging VueJS (Nuxt 3), GraphQL, Neo4J/Cypher queries but also building in Azure function servers and Azure Event Hubs. Third party tools included Okta/Auth0 for the authentication, Twilio Client for in-app phone and SMS communications and Apollo for the GraphQL client/server.",
+      "tools": [
+        "Vue 3",
+        "Nuxt",
+        "Vuex",
+        "Pinia",
+        "GraphQL",
+        "Neo4J",
+        "Azure Function Server",
+        "Azure DevOps",
+        "HTML/CSS",
+        "API"
+      ]
     },
     {
       "id": 2,
@@ -64,9 +88,18 @@
       "location": "Kent, Washington",
       "startDate": "2019-09-26",
       "endDate": "2020-05-01",
-      "summary":
-        "Onsite contractor at REI headquarters. Part of the platform front end team that was tasked with improving Java based global templating using Thymeleaf for the micro front-end architecture to enable code reuse across multiple applications. Primary projects included maintaining Spring MVC libraries used by other REI engineers to convert the existing monolith to new microsites as well as having a focus on web performance improvements with the product pages.",
-      "tools": ["Java", "Spring MVC", "Maven", "Thymeleaf", "HTML", "CSS", "Jenkins", "API", "IntelliJ"]
+      "summary": "Onsite contractor at REI headquarters. Part of the platform front end team that was tasked with improving Java based global templating using Thymeleaf for the micro front-end architecture to enable code reuse across multiple applications. Primary projects included maintaining Spring MVC libraries used by other REI engineers to convert the existing monolith to new microsites as well as having a focus on web performance improvements with the product pages.",
+      "tools": [
+        "Java",
+        "Spring MVC",
+        "Maven",
+        "Thymeleaf",
+        "HTML/CSS",
+        "Jenkins",
+        "API",
+        "IntelliJ",
+        "WebPageTest"
+      ]
     },
     {
       "id": 3,
@@ -76,9 +109,18 @@
       "location": "Remote",
       "startDate": "2019-08-04",
       "endDate": "2020-03-01",
-      "summary":
-        "Was part of a small startup team that built the MVP of a webapp that provided a way for veterans to share their military experiences. My role leveraged VueJS, VueX and Tachyons CSS along with consuming the Firebase SDK using Firestore as the backend for database, authentication and serverless functions using ExpressJS. Participated in UI/UX design reviews and sprint reviews. Managed sprint tasks and goals in Trello. The build/deploy pipeline used Github (Github Flow) and Netlify.",
-      "tools": ["VueJS", "VueX", "Tachyons CSS", "HTML", "CSS", "Firebase", "Firestore", "Github", "Netlify"]
+      "summary": "Was part of a small startup team that built the MVP of a webapp that provided a way for veterans to share their military experiences. My role leveraged VueJS, VueX and Tachyons CSS along with consuming the Firebase SDK using Firestore as the backend for database, authentication and serverless functions using ExpressJS. Participated in UI/UX design reviews and sprint reviews. Managed sprint tasks and goals in Trello. The build/deploy pipeline used Github (Github Flow) and Netlify.",
+      "tools": [
+        "VueJS",
+        "VueX",
+        "Tachyons CSS",
+        "HTML",
+        "CSS",
+        "Firebase",
+        "Firestore",
+        "Github",
+        "Netlify"
+      ]
     },
     {
       "id": 4,
@@ -87,9 +129,18 @@
       "location": "Remote",
       "startDate": "2018-08-04",
       "endDate": "2019-02-28",
-      "summary":
-        "Co-designed and developed the front end of a player's hub web app, as well as a cryptocurrency wallet system, for a blockchain based gaming ecosystem. I leveraged frameworks such as VueJS, VueX and Tachyons CSS along with consuming the Gamesparks SDK and various API's for player auth, game data and account administration. Participated in UI design reviews, sprint reviews, and retrospectives. Managed sprint tasks and goals in Waffle and Github. Maintained existing corporate websites, using HTML/Bootstrap/JS with the Jekyll development framework.",
-      "tools": ["VueJS", "VueX", "Tachyons CSS", "HTML", "CSS", "Bootstrap", "Jekyll", "API", "Netlify"],
+      "summary": "Co-designed and developed the front end of a player's hub web app, as well as a cryptocurrency wallet system, for a blockchain based gaming ecosystem. I leveraged frameworks such as VueJS, VueX and Tachyons CSS along with consuming the Gamesparks SDK and various API's for player auth, game data and account administration. Participated in UI design reviews, sprint reviews, and retrospectives. Managed sprint tasks and goals in Waffle and Github. Maintained existing corporate websites, using HTML/Bootstrap/JS with the Jekyll development framework.",
+      "tools": [
+        "VueJS",
+        "VueX",
+        "Tachyons CSS",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Jekyll",
+        "API",
+        "Netlify"
+      ],
       "workExamples": [
         {
           "video": "https://www.youtube.com/embed/2roY5rkfg0M",
@@ -106,8 +157,7 @@
       "location": "Everett, Washington",
       "startDate": "2017-11-01",
       "endDate": "2018-05-01",
-      "summary":
-        "Dedicated front end web developer on contract (Modis) for the Thermal Imaging marketing group, building HTML/CSS/JS landing pages and emails for product launches, including maintaining 60+ global product websites in 30+ languages through various content management systems in a fast paced environment with tight deadlines. Working in systems such as JIRA, Eloqua, MS CMS, Clickability, Drupal and CRM.",
+      "summary": "Dedicated front end web developer on contract (Modis) for the Thermal Imaging marketing group, building HTML/CSS/JS landing pages and emails for product launches, including maintaining 60+ global product websites in 30+ languages through various content management systems in a fast paced environment with tight deadlines. Working in systems such as JIRA, Eloqua, MS CMS, Clickability, Drupal and CRM.",
       "workExamples": [
         {
           "img": "/img/fluke/RoverLaunch.png",
@@ -142,8 +192,7 @@
       "location": "Richland, Washington",
       "startDate": "2013-10-01",
       "endDate": "2015-11-01",
-      "summary":
-        "Acquire, design and build out a 1964 Airstream into a mobile walk-in coffee shop, manage the business operations of a retail coffee shop including purchasing, accounting, inventory planning, cash handling, enthusiastic hospitality, customer education and marketing."
+      "summary": "Acquire, design and build out a 1964 Airstream into a mobile walk-in coffee shop, manage the business operations of a retail coffee shop including purchasing, accounting, inventory planning, cash handling, enthusiastic hospitality, customer education and marketing."
     },
     {
       "id": 7,
@@ -153,25 +202,22 @@
       "location": "Hermiston, Oregon",
       "startDate": "2005-02-01",
       "endDate": "2013-08-01",
-      "summary":
-        "Administration/support of various systems including Windows based desktops, servers (including virtual), Active Directory, iOS/Android devices, VOIP system (Avaya), Building Security systems (Kantech), Asset Inventory system (Footprints), LAN hardware (Juniper), Video Surveillance (Milestone/IQInvision), various industry related applications (Clevest, TWACS, Itron), server room redesign including redundant power distribution, rack space design, cable/patch panel management and environmental monitoring."
+      "summary": "Administration/support of various systems including Windows based desktops, servers (including virtual), Active Directory, iOS/Android devices, VOIP system (Avaya), Building Security systems (Kantech), Asset Inventory system (Footprints), LAN hardware (Juniper), Video Surveillance (Milestone/IQInvision), various industry related applications (Clevest, TWACS, Itron), server room redesign including redundant power distribution, rack space design, cable/patch panel management and environmental monitoring."
     }
   ],
   "volunteer": [
     {
       "organization": "United Church of God",
-      "position": "Co-Counselor, Photographer",
+      "position": "Co-Counselor, Activity Staff, Photographer",
       "website": "http://uyc.ucg.org/",
-      "startDate": "2016, 2018, 2019, 2022, 2023",
-      "summary":
-        "Help guide 7-9 year olds through a week of camp activities while teaching biblical concepts in ways they can understand and utilize after leaving camp."
+      "startDate": "2016 - Present",
+      "summary": "Help guide 7-18 year olds through a week of camp activities while teaching biblical concepts in ways they can understand and utilize after leaving camp."
     },
     {
       "organization": "Global Church of God",
       "position": "Co-Counselor",
       "startDate": "Summer 1998",
-      "summary":
-        "Help guide older teenagers through a week of camp activities while teaching biblical concepts that will help them navigate the responsibilities that come with the transition to adulthood."
+      "summary": "Help guide older teenagers through a week of camp activities while teaching biblical concepts that will help them navigate the responsibilities that come with the transition to adulthood."
     }
   ],
   "education": [
@@ -212,20 +258,46 @@
   ],
   "portfolio": [
     {
+      "name": "Barrel Rate",
+      "website": "https://www.barrelrate.com",
+      "icon": "img/barrel-rate.png",
+      "summary": "A responsive web app that tracks batting cage sessions with barrel rate analytics. Built for baseball players and coaches.",
+      "tools": [
+        "NuxtJS",
+        "Pinia",
+        "Tailwind CSS",
+        "HTML/CSS",
+        "Firebase",
+        "Firestore",
+        "Stripe API",
+        "Github",
+        "Netlify"
+      ]
+    },
+    {
       "name": "Yolk Folks",
       "website": "https://www.yolkfolks.com",
       "icon": "img/icons-512.png",
-      "summary":
-        "A responsive web app that provides a marketplace to buy and sell eggs from backyard chickens. Leverages frameworks such as VueJS, VueX and Tachyons CSS along with consuming the Firebase SDK using Firestore as the backend for authentication,  database, database triggers, Cloud storage and serverless functions using ExpressJS. Consumes the Stripe API, using Stripe Connect as a marketplace payment processor mechanism. The build/deploy pipeline uses Github and Netlify.",
-      "tools": ["VueJS", "VueX", "Tachyons CSS", "HTML", "CSS", "Firebase", "Firestore", "Stripe API", "Github", "Netlify"]
+      "summary": "A responsive web app that provides a marketplace to buy and sell eggs from backyard chickens.",
+      "tools": [
+        "VueJS",
+        "VueX",
+        "Tachyons CSS",
+        "HTML",
+        "CSS",
+        "Firebase",
+        "Firestore",
+        "Stripe API",
+        "Github",
+        "Netlify"
+      ]
     },
     {
       "name": "Monopoly Calculator",
       "website": "http://monopoly-calc.com",
       "icon": "img/monopoly-icon.png",
-      "summary":
-        "Web app for Monopoly to calculate the total net worth of a Monopoly game winner. Built with Create-React-App. The build/deploy pipeline uses Github and Netlify.",
-      "tools": ["ReactJS", "Tachyons CSS", "HTML", "CSS", "Netlify"]
+      "summary": "Web app for Monopoly to calculate the total net worth of a Monopoly game winner.",
+      "tools": ["ReactJS", "Tachyons CSS", "HTML/CSS", "Netlify"]
     }
   ],
   "skills": [
@@ -233,18 +305,20 @@
       "name": "Front End Development",
       "level": "Master",
       "keywords": [
+        "NuxtJS",
         "VueJS",
-        "Vue 3",
-        "VueX",
         "Pinia",
-        "Nuxt 3",
+        "VueX",
+        "AI/Copilot",
         "GraphQL",
         "Neo4J",
         "Firebase",
         "Firestore",
+        "DynaTrace",
+        "Akamai",
+        "WebPageTest",
         "Azure DevOps",
-        "HTML",
-        "CSS",
+        "HTML/CSS",
         "Tachyons CSS",
         "Bootstrap",
         "Vuetify",
@@ -252,17 +326,17 @@
         "Javascript",
         "ES6",
         "Google Analytics",
+        "GTM",
         "MongoDB",
         "SASS",
-        "Gulp",
-        "Grunt",
         "NodeJS",
         "NPM",
-        "Yarn",
         "Git",
         "Github",
+        "Bitbucket",
         "Netlify",
-        "Surge.sh"
+        "Conflence",
+        "Jira"
       ]
     }
   ]
